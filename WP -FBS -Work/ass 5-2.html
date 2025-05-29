@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Layout</title>
+</head>
+<body>
+    <h2>Contact Us</h2>
+
+    <form action="dummy" method="post">
+        <table border="1" cellspacing="5" cellpadding="5">
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" placeholder="Enter name"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" placeholder="Enter email"></td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td><input type="tel" name="phone" placeholder="Enter phone number"></td>
+            </tr>
+            <tr>
+                <td>Message:</td>
+                <td><textarea name="message" placeholder="Enter your message"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Clear">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
